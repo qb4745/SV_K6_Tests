@@ -1,0 +1,23 @@
+{
+  "name": "smartvoting-k6-tests",
+  "version": "1.0.0",
+  "description": "Load tests for SmartVoting using k6 and TypeScript",
+  "main": "dist/login.js",
+  "scripts": {
+    "build": "tsc",
+    "test:login": "npm run build && k6 run dist/login.js",
+    "test:magic": "npm run build && k6 run dist/magic_vote.js",
+    "test:load": "npm run build && k6 run dist/tests/load/full_voting.test.js"
+  },
+  "keywords": [
+    "k6",
+    "load-testing",
+    "typescript"
+  ],
+  "author": "Gemini Agent",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/k6": "^0.54.0",
+    "typescript": "^5.7.0"
+  }
+}

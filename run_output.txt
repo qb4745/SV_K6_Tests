@@ -1,0 +1,65 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: dist/tests/load/full_voting.test.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
+              * default: 1 iterations shared among 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+
+time="2026-02-01T23:40:20-03:00" level=info msg="[1] Processing: 131717733" source=console
+
+running (00m01.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m01.0s/10m0s  0/1 shared iters
+
+running (00m02.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m02.0s/10m0s  0/1 shared iters
+
+running (00m03.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m03.0s/10m0s  0/1 shared iters
+time="2026-02-01T23:40:24-03:00" level=info msg="✅ [131717733] Selected: Pap:401 / Opc:1277" source=console
+
+running (00m04.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m04.0s/10m0s  0/1 shared iters
+
+running (00m05.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m05.0s/10m0s  0/1 shared iters
+time="2026-02-01T23:40:26-03:00" level=error msg="❌ Vote Failed: 500 Body: {\"mensaje\":\"Error desconocido.\"}" source=console
+
+running (00m06.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 1 VUs  00m06.0s/10m0s  0/1 shared iters
+time="2026-02-01T23:40:27-03:00" level=info msg="🎉 Flow completed for 131717733" source=console
+
+     ✓ Login OK
+     ✓ Get Representante 200
+     ✓ Get Papeletas 200
+     ✗ Voto Depositado 200
+      ↳  0% — ✓ 0 / ✗ 1
+
+     checks.........................: 75.00% 3 out of 4
+     data_received..................: 11 kB  1.7 kB/s
+     data_sent......................: 2.3 kB 350 B/s
+     http_req_blocked...............: avg=2.9ms    min=797ns    med=2.88µs   max=23.22ms  p(90)=6.97ms   p(95)=15.1ms  
+     http_req_connecting............: avg=1.03ms   min=0s       med=0s       max=8.31ms   p(90)=2.49ms   p(95)=5.4ms   
+   ✓ http_req_duration..............: avg=741.87ms min=226.16ms med=784.1ms  max=1.02s    p(90)=977.75ms p(95)=1s      
+       { expected_response:true }...: avg=710.93ms min=226.16ms med=767.2ms  max=1.02s    p(90)=970.91ms p(95)=996.83ms
+   ✗ http_req_failed................: 12.50% 1 out of 8
+     http_req_receiving.............: avg=247.2µs  min=142.91µs med=267.14µs max=308.53µs p(90)=302.53µs p(95)=305.53µs
+     http_req_sending...............: avg=313.16µs min=75.62µs  med=272.45µs max=786.97µs p(90)=493.76µs p(95)=640.36µs
+     http_req_tls_handshaking.......: avg=1.51ms   min=0s       med=0s       max=12.11ms  p(90)=3.63ms   p(95)=7.87ms  
+     http_req_waiting...............: avg=741.31ms min=225.93ms med=783.54ms max=1.02s    p(90)=976.88ms p(95)=999.61ms
+     http_reqs......................: 8      1.237256/s
+     iteration_duration.............: avg=6.46s    min=6.46s    med=6.46s    max=6.46s    p(90)=6.46s    p(95)=6.46s   
+     iterations.....................: 1      0.154657/s
+     vus............................: 1      min=1      max=1
+     vus_max........................: 1      min=1      max=1
+
+
+running (00m06.5s), 0/1 VUs, 1 complete and 0 interrupted iterations
+default ✓ [ 100% ] 1 VUs  00m06.5s/10m0s  1/1 shared iters
+time="2026-02-01T23:40:27-03:00" level=error msg="thresholds on metrics 'http_req_failed' have been crossed"
