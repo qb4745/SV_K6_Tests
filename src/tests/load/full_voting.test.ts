@@ -4,11 +4,11 @@ import { Options } from 'k6/options';
 import { sleep } from 'k6';
 
 // Imports from POM structure
-import { THRESHOLDS } from '../../config/index.js';
+import { CONFIG, THRESHOLDS } from '../../config/index.js';
 import { AuthAPI } from '../../api/auth.js';
 import { VotingAPI } from '../../api/voting.js';
 import { cleanRut, extractTokenFromLink, extractElectionId, extractSlug, formatRut } from '../../utils/helpers.js';
-import { User, PapeletaActiva, RepresentanteResponse,  } from '../../types/smartvoting.js';
+import { User, PapeletaActiva, RepresentanteResponse } from '../../types/smartvoting.js';
 
 // Data Loading
 const users = new SharedArray('users', () => JSON.parse(open('../../../data/users.json')));
@@ -26,9 +26,21 @@ export const options: Options = {
 };
 
 export default function () {
+  // --- 0. ENVIRONMENT LOGGING (Solo una vez al inicio) ---
+  if (exec.scenario.iterationInTest === 0 && exec.vu.idInTest === 1) {
+      console.log(`\n==================================================`);
+      console.log(`🌐 TARGET ENVIRONMENT: ${CONFIG.ENV_NAME || 'QA'}`);
+      console.log(`🔗 BASE_URL: ${CONFIG.BASE_URL}`);
+      console.log(`🆔 PROVIDER: ${CONFIG.PROVIDER_ID}`);
+      console.log(`==================================================\n`);
+  }
+
   const vuId = exec.vu.idInTest;
   const idx = exec.scenario.iterationInTest;
+  
+  // Safety check para no desbordar el array
   if (idx >= users.length) return;
+  
   const user = users[idx] as User;
   const startTime = Date.now();
 
@@ -101,10 +113,10 @@ export default function () {
 
   sleep(0.5);
 
-// 8. Emit Vote - CORREGIDO
+  // 8. Emit Vote - CORREGIDO (Usamos 'rut' limpio, NO 'fmtRut')
   const votePayload = {
     papeletaId: targetPapeleta.id,
-    dniVotante: rut, // <--- CAMBIO CLAVE: Usar 'rut' (limpio), no 'fmtRut'
+    dniVotante: rut, // <--- ERROR CORREGIDO AQUI
     voto: {
       votacionId: Number(electionId),
       papeletaId: targetPapeleta.id,
@@ -132,4 +144,3 @@ export default function () {
   const duration = ((Date.now() - startTime) / 1000).toFixed(2);
   console.log(`── ${logPrefix} | END | Duration: ${duration}s ──`);
 }
-

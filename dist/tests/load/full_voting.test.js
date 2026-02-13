@@ -27,8 +27,17 @@ exports.options = {
     thresholds: index_js_1.THRESHOLDS.STRICT,
 };
 function default_1() {
+    // --- 0. ENVIRONMENT LOGGING (Solo una vez al inicio) ---
+    if (execution_1.default.scenario.iterationInTest === 0 && execution_1.default.vu.idInTest === 1) {
+        console.log(`\n==================================================`);
+        console.log(`🌐 TARGET ENVIRONMENT: ${index_js_1.CONFIG.ENV_NAME || 'QA'}`);
+        console.log(`🔗 BASE_URL: ${index_js_1.CONFIG.BASE_URL}`);
+        console.log(`🆔 PROVIDER: ${index_js_1.CONFIG.PROVIDER_ID}`);
+        console.log(`==================================================\n`);
+    }
     const vuId = execution_1.default.vu.idInTest;
     const idx = execution_1.default.scenario.iterationInTest;
+    // Safety check para no desbordar el array
     if (idx >= users.length)
         return;
     const user = users[idx];
@@ -84,10 +93,10 @@ function default_1() {
     // 7. Save Log
     voting_js_1.VotingAPI.guardarBitacora(Number(electionId), sessionToken);
     (0, k6_1.sleep)(0.5);
-    // 8. Emit Vote - CORREGIDO
+    // 8. Emit Vote - CORREGIDO (Usamos 'rut' limpio, NO 'fmtRut')
     const votePayload = {
         papeletaId: targetPapeleta.id,
-        dniVotante: rut, // <--- CAMBIO CLAVE: Usar 'rut' (limpio), no 'fmtRut'
+        dniVotante: rut, // <--- ERROR CORREGIDO AQUI
         voto: {
             votacionId: Number(electionId),
             papeletaId: targetPapeleta.id,

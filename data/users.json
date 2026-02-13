@@ -1,52 +1,52 @@
 [
-{
-    "rut": "25.859.523-8",
-    "nombre": "Carmen Garrido Castro",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMjU4NTk1MjM4Iiwidm90YWNpb24iOjI1OCwiaWF0IjoxNzY5OTgwOTkzfQ.CkYNk6GwqnzBPb02xARn_60RlkRMt2QAdjueVORwfhc"
+  {
+    "rut": "24.291.872-K",
+    "nombre": "Clementina Arroyo Cortés",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMjQyOTE4NzJLIiwidm90YWNpb24iOjI4LCJpYXQiOjE3NzA4NjYwNzF9.fg8128mEjtrT7ztIL3xPvep7TZagIPJYWfiXHFCEvIg"
   },
   {
-    "rut": "7.101.697-8",
-    "nombre": "Marco Uribe Fuentes",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiNzEwMTY5NzgiLCJ2b3RhY2lvbiI6MjU4LCJpYXQiOjE3Njk5ODA5OTN9.Fsf2zcnuAB4t4ne3Lq-FtYWG9AAkrAeeOewbw18Tjrw"
+    "rut": "13.291.134-7",
+    "nombre": "Horacio Santander Salinas",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMTMyOTExMzQ3Iiwidm90YWNpb24iOjI4LCJpYXQiOjE3NzA4NjYwNzJ9.jL--9IdEu7s_gv-Lsv80LfD9TeKvfcKvTATlBzT9Hlw"
   },
   {
-    "rut": "13.912.058-2",
-    "nombre": "Jaime Vicencio Rubilar",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMTM5MTIwNTgyIiwidm90YWNpb24iOjI1OCwiaWF0IjoxNzY5OTgwOTkzfQ.KivoC799JWIM0Xv1fe2UhCwk3tieyiuyFXIOhUCsIgs"
+    "rut": "10.539.713-5",
+    "nombre": "León Moraga Quintana",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMTA1Mzk3MTM1Iiwidm90YWNpb24iOjI4LCJpYXQiOjE3NzA4NjYwNzF9.2PBEIzEvfIGDjXYK3snf0rP0gayxRbZI0TOo_0qTamc"
   },
   {
-    "rut": "8.223.274-5",
-    "nombre": "Luis Zúñiga Vergara",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiODIyMzI3NDUiLCJ2b3RhY2lvbiI6MjU4LCJpYXQiOjE3Njk5ODA5OTN9.EzALHB--itS7lFxjIXeZKkw9tQuYWmg76uM3Gt15Sac"
+    "rut": "9.102.867-0",
+    "nombre": "Luis Merino Almonacid",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiOTEwMjg2NzAiLCJ2b3RhY2lvbiI6MjgsImlhdCI6MTc3MDg2NjA3Mn0.Wjji_PrT_uCqxbmKvKCq6uZjEWGDSdsUx0x5pXwnKW4"
   },
   {
-    "rut": "22.263.809-7",
-    "nombre": "Esteban Cabezas Reyes",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMjIyNjM4MDk3Iiwidm90YWNpb24iOjI1OCwiaWF0IjoxNzY5OTgwOTkzfQ.YHlReWl1Ylc7gpjD1uxgwYoMkL-MrsB8rY-Nad37zQw"
+    "rut": "9.750.580-2",
+    "nombre": "Enrique Gajardo Quiroga",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiOTc1MDU4MDIiLCJ2b3RhY2lvbiI6MjgsImlhdCI6MTc3MDg2NjA3MX0.mZh1ZklqRvI1jiQPrXfSX8VPudjh-6S2xQ3gXKHRICI"
   },
   {
-    "rut": "24.401.532-8",
-    "nombre": "José Delgado Rivera",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMjQ0MDE1MzI4Iiwidm90YWNpb24iOjI1OCwiaWF0IjoxNzY5OTgwOTkzfQ.EsLRX_Si4L7ZrDr_75_cr3Gc9pcCcMhl4iA15YMynak"
+    "rut": "8.565.242-7",
+    "nombre": "María Castillo Morales",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiODU2NTI0MjciLCJ2b3RhY2lvbiI6MjgsImlhdCI6MTc3MDg2NjA3Mn0.U6m6a9AZpE88aMVEwebWAqwXyMz81_uGTy57PdLJCwk"
   },
   {
-    "rut": "11.436.373-1",
-    "nombre": "Catalina Quezada Becerra",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMTE0MzYzNzMxIiwidm90YWNpb24iOjI1OCwiaWF0IjoxNzY5OTgwOTkzfQ.9Z7STbcLcWgczjbIeQdUtpo4-8M0ILrssGs40b8w-vc"
+    "rut": "11.424.483-K",
+    "nombre": "Gladys Bravo Lillo",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMTE0MjQ0ODNLIiwidm90YWNpb24iOjI4LCJpYXQiOjE3NzA4NjYwNzJ9.Pb1gC-Qa9Gd75_c5xxkiNJx7SlqbYUvbVMINUibLzlc"
   },
   {
-    "rut": "16.292.721-3",
-    "nombre": "Claudia Fernández González",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMTYyOTI3MjEzIiwidm90YWNpb24iOjI1OCwiaWF0IjoxNzY5OTgwOTkzfQ.pssHg_zJNRTxhf07sxkO170Q4k4P7fiWZSFH8wj5k34"
+    "rut": "7.301.320-8",
+    "nombre": "María López Ibáñez",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiNzMwMTMyMDgiLCJ2b3RhY2lvbiI6MjgsImlhdCI6MTc3MDg2NjA3Mn0.tTr-5INdYYczkP-qg-wtaFsq7uuDS1SaMvz6Gcd7CMI"
   },
   {
-    "rut": "19.785.715-3",
-    "nombre": "Pascale Azócar López",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMTk3ODU3MTUzIiwidm90YWNpb24iOjI1OCwiaWF0IjoxNzY5OTgwOTkzfQ.8105lgEomDgCHBFQyUQ7nYxGJSGY6MTRTy5IBiLOFpE"
+    "rut": "21.722.213-3",
+    "nombre": "Jacqueline González Orellana",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMjE3MjIyMTMzIiwidm90YWNpb24iOjI4LCJpYXQiOjE3NzA4NjYwNzJ9.D86T1QmReGg82RpiyPO1wP_6qXMAOnMN4arYrYzoldg"
   },
   {
-    "rut": "25.399.573-4",
-    "nombre": "Javiera Pino Córdova",
-    "link": "https://qa-app.smartvoting.cl/es/votantes/votacion/258-test-100-vus?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiMjUzOTk1NzM0Iiwidm90YWNpb24iOjI1OCwiaWF0IjoxNzY5OTgwOTkzfQ.c21DhKBNl6p6ldSXQg7ZTtQIUNN7G1e3thXwLmJVCE8"
+    "rut": "6.391.416-9",
+    "nombre": "Mauricio Sánchez Espinoza",
+    "link": "https://app.smartvoting.cl/es/votantes/votacion/28-test-seguridad?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkbmlSZXByZXNlbnRhbnRlIjoiNjM5MTQxNjkiLCJ2b3RhY2lvbiI6MjgsImlhdCI6MTc3MDg2NjA3Mn0.FvC8ygg0d0zyqz3McHafIbrubDgWiGZwOCP_PhYsLlA"
   }
 ]
